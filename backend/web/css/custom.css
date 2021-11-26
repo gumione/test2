@@ -1,0 +1,132 @@
+.pagination li.active
+{
+    box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.pagination li,
+.pagination li a
+{
+    font-size: .875rem; 
+
+    display: flex;
+
+    width: 36px;
+    height: 36px;
+    margin: 0 3px;
+    padding: 15px;
+
+    border-radius: 50% !important;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination li:first-child
+{
+    margin-left: 0;
+
+    border-top-left-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+}
+
+.pagination li:last-child
+{
+    border-top-right-radius: .375rem;
+    border-bottom-right-radius: .375rem;
+}
+
+.pagination li.active a
+{
+    z-index: 3;
+
+    color: #fff;
+    border-color: #5e72e4; 
+    background-color: #5e72e4;
+}
+
+.pagination li.disabled
+{
+    cursor: auto;
+    pointer-events: none;
+
+    color: #8898aa;
+    border-color: #dee2e6; 
+    background-color: #fff;
+}
+
+.card .table td, .card .table th {
+    padding-right: .75rem;
+    padding-left: .75rem;
+}
+
+.table thead th {
+    color: #8898aa;
+    background-color: #f6f9fc;
+}
+
+.table thead > tr > th > a span:after, .dataTable .sorting:after, .dataTable .sorting_asc:after, .dataTable .sorting_desc:after {
+    content: "\f0dc";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left: 5px;
+    font-size: 0.75em;
+}
+
+.table thead > tr > th > a.desc span:after, .dataTable .sorting_asc:after {
+    content: "\f0de";
+}
+
+.table thead > tr > th > a.asc span:after, .dataTable .sorting_desc:after {
+    content: "\f0dd";
+}
+
+.summary {
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    float: left;
+}
+
+.pagination {
+    padding: 20px;
+}
+
+a.btn-icon * {
+    color: #fff;
+}
+
+.error-summary {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.form-group.has-error .help-block{
+    padding: 5px;
+    color: #721c24;
+}
+
+.form-group.has-error .control-label {
+    color: #721c24;
+}
+.img-thumbnail {
+    max-width: 100px;
+}
+.detail-view img {
+    max-width: 200px;
+}
+.detail-view {
+    table-layout : fixed;    
+}
+.detail-view td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,21 @@
+body {
+    background: #FFFFFF;
+    position: relative;
+}
+footer {
+    color: #fff;
+}
+.page-header {
+    height: 300px !important;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card .thumbnail {
+    max-width: 95%;
+}

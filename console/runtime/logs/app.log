@@ -1,0 +1,2166 @@
+2020-03-22 18:01:04 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Missing required arguments: name' in E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php:186
+Stack trace:
+#0 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('create', Array)
+#3 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('create', Array)
+#4 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#5 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#6 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 E:\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#8 {main}
+2020-03-22 18:01:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-5.6-x64'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-5.6-x64;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1584889264.0622
+    'REQUEST_TIME' => 1584889264
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2020-03-24 12:48:17 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: name in E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php:202
+Stack trace:
+#0 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('create', Array)
+#3 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('create', Array)
+#4 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/create', Array)
+#5 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/create', Array)
+#6 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 E:\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#8 {main}
+2020-03-24 12:48:17 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1585043297.1699
+    'REQUEST_TIME' => 1585043297
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+    ]
+    'argc' => 2
+]
+2020-03-25 00:19:49 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'paypal_client_id' in 'where clause' in E:\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 E:\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 E:\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('DELETE FROM `op...')
+#2 E:\domains\bestadv.ll\console\migrations\m200324_094824_add_paypal_options.php(30): yii\db\Command->execute()
+#3 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(753): m200324_094824_add_paypal_options->down()
+#4 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(262): yii\console\controllers\BaseMigrateController->migrateDown('m200324_094824_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(4)
+#6 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('down', Array)
+#9 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('down', Array)
+#10 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'paypal_client_id' in 'where clause'
+The SQL being executed was: DELETE FROM `options` WHERE `option_name` = paypal_client_id in E:\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `op...')
+#1 E:\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('DELETE FROM `op...')
+#2 E:\domains\bestadv.ll\console\migrations\m200324_094824_add_paypal_options.php(30): yii\db\Command->execute()
+#3 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(753): m200324_094824_add_paypal_options->down()
+#4 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(262): yii\console\controllers\BaseMigrateController->migrateDown('m200324_094824_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(4)
+#6 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('down', Array)
+#9 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('down', Array)
+#10 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 E:\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 E:\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'paypal_client_id' in 'where clause'
+)
+
+2020-03-25 00:19:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1585084787.0848
+    'REQUEST_TIME' => 1585084787
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => '4'
+    ]
+    'argc' => 3
+]
+2020-04-15 22:45:20 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: The use statement with non-compound name 'Yii' has no effect in E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php:4
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(802): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'E:\\os5\\OSPanel\\...', 4, Array)
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(802): require_once()
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\MigrateController.php(197): yii\console\controllers\BaseMigrateController->includeMigrationFile('m130524_201442_...')
+#3 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(752): yii\console\controllers\MigrateController->createMigration('m130524_201442_...')
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(262): yii\console\controllers\BaseMigrateController->migrateDown('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(9)
+#6 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('down', Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('down', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#14 {main}
+2020-04-15 22:45:18 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586979918.1978
+    'REQUEST_TIME' => 1586979918
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => '9'
+    ]
+    'argc' => 3
+]
+2020-04-15 22:45:54 [-][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: The use statement with non-compound name 'Yii' has no effect in E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php:4
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(802): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'E:\\os5\\OSPanel\\...', 4, Array)
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(802): require_once()
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\MigrateController.php(197): yii\console\controllers\BaseMigrateController->includeMigrationFile('m130524_201442_...')
+#3 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(752): yii\console\controllers\MigrateController->createMigration('m130524_201442_...')
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(262): yii\console\controllers\BaseMigrateController->migrateDown('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(9)
+#6 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('down', Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('down', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#14 {main}
+2020-04-15 22:45:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586979952.9202
+    'REQUEST_TIME' => 1586979952
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/down'
+        2 => '9'
+    ]
+    'argc' => 3
+]
+2020-04-15 22:46:59 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1364 Field 'auth_key' doesn't have a default value in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(28): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1364 Field 'auth_key' doesn't have a default value
+The SQL being executed was: INSERT INTO `user` (`username`, `password_hash`, `status`) VALUES ('admin', '$2y$13$fOyG/lxiZCHuKMnlMV8MxOpXPcATnVstXAU95c7aYqkQGe98oH.Su', 100) in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(28): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1364
+    [2] => Field 'auth_key' doesn't have a default value
+)
+
+2020-04-15 22:46:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980017.8345
+    'REQUEST_TIME' => 1586980017
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-15 22:47:24 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2020-04-15 22:47:23 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980043.2705
+    'REQUEST_TIME' => 1586980043
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-15 22:47:35 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32),
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(26): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2020-04-15 22:47:34 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980054.7041
+    'REQUEST_TIME' => 1586980054
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-15 22:48:00 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(28): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1364 Field 'email' doesn't have a default value
+The SQL being executed was: INSERT INTO `user` (`username`, `password_hash`, `status`) VALUES ('admin', '$2y$13$g4fWy/8dRsh4eI8Ao/N7MuFitclxVFpWdfZsgGQYJ3wU6CuqLNDqC', 100) in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(28): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1364
+    [2] => Field 'email' doesn't have a default value
+)
+
+2020-04-15 22:47:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980078.2367
+    'REQUEST_TIME' => 1586980078
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-15 22:48:28 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1364 Field 'created_at' doesn't have a default value in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(28): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1364 Field 'created_at' doesn't have a default value
+The SQL being executed was: INSERT INTO `user` (`username`, `password_hash`, `status`, `email`) VALUES ('admin', '$2y$13$9KhDj5KIhr.qxy5fK/IU2OVzBzAlFj32DsLnT/5wEzmK2O8Kv..6i', 100, 'admin@example.com') in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(28): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1364
+    [2] => Field 'created_at' doesn't have a default value
+)
+
+2020-04-15 22:48:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980106.757
+    'REQUEST_TIME' => 1586980106
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-15 22:49:26 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Object of class yii\db\mysql\ColumnSchemaBuilder could not be converted to int in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\ColumnSchema.php:159
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\ColumnSchema.php(159): yii\base\ErrorHandler->handleError(8, 'Object of class...', 'E:\\os5\\OSPanel\\...', 159, Array)
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\mysql\ColumnSchema.php(49): yii\db\ColumnSchema->typecast(Object(yii\db\mysql\ColumnSchemaBuilder))
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\QueryBuilder.php(375): yii\db\mysql\ColumnSchema->dbTypecast(Object(yii\db\mysql\ColumnSchemaBuilder))
+#3 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(257): yii\db\QueryBuilder->prepareInsertValues('user', Array, Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\QueryBuilder.php(345): yii\db\mysql\QueryBuilder->prepareInsertValues('user', Array, Array)
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(472): yii\db\QueryBuilder->insert('user', Array, Array)
+#6 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->insert('user', Array)
+#7 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(28): yii\db\Migration->insert('user', Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#10 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#14 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#15 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#16 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#17 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#18 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#19 {main}
+2020-04-15 22:49:24 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980164.8352
+    'REQUEST_TIME' => 1586980164
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-15 22:50:38 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1364 Field 'updated_at' doesn't have a default value in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(32): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1364 Field 'updated_at' doesn't have a default value
+The SQL being executed was: INSERT INTO `user` (`username`, `password_hash`, `status`, `email`, `created_at`) VALUES ('admin', '$2y$13$auSUzrdJn/tGsFxfI0nIj.sxgMdTs7RznhAH210jSIW1U/xK.VI.W', 100, 'admin@example.com', NOW()) in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(32): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1364
+    [2] => Field 'updated_at' doesn't have a default value
+)
+
+2020-04-15 22:50:36 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980236.9604
+    'REQUEST_TIME' => 1586980236
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-15 22:51:05 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'created_at' at row 1 in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(33): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'created_at' at row 1
+The SQL being executed was: INSERT INTO `user` (`username`, `password_hash`, `status`, `email`, `created_at`, `updated_at`) VALUES ('admin', '$2y$13$SJ5Av8bplGFvQv2z137UG.1fCvnRQF4mrinV/BQagGLAX06O4A/Mu', 100, 'admin@example.com', NOW(), NOW()) in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `us...')
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('INSERT INTO `us...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(232): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(33): yii\db\Migration->insert('user', Array)
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 22003
+    [1] => 1264
+    [2] => Out of range value for column 'created_at' at row 1
+)
+
+2020-04-15 22:51:03 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980263.7979
+    'REQUEST_TIME' => 1586980263
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-04-15 22:51:39 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(24): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32),
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 E:\os5\OSPanel\domains\bestadv.ll\console\migrations\m130524_201442_init.php(24): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m130524_201442_init->up()
+#5 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 E:\os5\OSPanel\domains\bestadv.ll\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 E:\os5\OSPanel\domains\bestadv.ll\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2020-04-15 22:51:38 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-5IFF4HO'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'GameFirst' => 'C:\\Program Files (x86)\\ASUS\\GameFirst\\'
+    'GameFirstUserPath' => 'C:\\Users\\gumione\\AppData\\Local\\ASUS\\GameFirst'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-5IFF4HO'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-5IFF4HO'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\PuTTY;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;E:\\modules\\php\\PHP-7.0-x64;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\gumione\\AppData\\Local\\Programs\\EmEditor;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/e/os5/OSPanel/domains/bestadv.ll'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-5IFF4HO'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-5IFF4HO'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'WINDIR' => 'C:\\Windows'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1586980298.1088
+    'REQUEST_TIME' => 1586980298
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-09-05 18:58:11 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "init". in S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('init', Array)
+#1 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('init', Array)
+#2 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 S:\os5\OSPanel\domains\test1.lc\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "init". in S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('init', Array)
+#1 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 S:\os5\OSPanel\domains\test1.lc\yii(23): yii\base\Application->run()
+#3 {main}
+2020-09-05 18:58:11 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-1JJ57UU'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-1JJ57UU'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-1JJ57UU'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;S:\\os5\\OSPanel\\modules\\php\\PHP_7.2-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI;C:\\Program Files\\nodejs;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;C:\\Users\\gumione\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;S:\\os5\\OSPanel\\modules\\php\\PHP_7.2-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI;C:\\Program Files\\nodejs;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;C:\\Users\\gumione\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/s/os5/OSPanel/domains/test1.lc'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-1JJ57UU'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-1JJ57UU'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1599321491.0545
+    'REQUEST_TIME' => 1599321491
+    'argv' => [
+        0 => 'yii'
+        1 => 'init'
+    ]
+    'argc' => 2
+]
+2020-09-05 18:58:59 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1101 BLOB/TEXT column 'description' can't have a default value in S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `p...')
+#2 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 S:\os5\OSPanel\domains\test1.lc\console\migrations\m200905_155641_create_products_table.php(25): yii\db\Migration->createTable('products', Array, 'CHARACTER SET u...')
+#4 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m200905_155641_create_products_table->up()
+#5 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m200905_155641_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 S:\os5\OSPanel\domains\test1.lc\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1101 BLOB/TEXT column 'description' can't have a default value
+The SQL being executed was: CREATE TABLE `products` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`title` varchar(256) NOT NULL DEFAULT '',
+	`image` varchar(256) NOT NULL DEFAULT '',
+	`date_create` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	`date_update` timestamp(0) NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	`price` double NOT NULL DEFAULT 0,
+	`description` text NOT NULL DEFAULT ''
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `p...')
+#1 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `p...')
+#2 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 S:\os5\OSPanel\domains\test1.lc\console\migrations\m200905_155641_create_products_table.php(25): yii\db\Migration->createTable('products', Array, 'CHARACTER SET u...')
+#4 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m200905_155641_create_products_table->up()
+#5 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m200905_155641_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 S:\os5\OSPanel\domains\test1.lc\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1101
+    [2] => BLOB/TEXT column 'description' can't have a default value
+)
+
+2020-09-05 18:58:58 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-1JJ57UU'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-1JJ57UU'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-1JJ57UU'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;S:\\os5\\OSPanel\\modules\\php\\PHP_7.2-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI;C:\\Program Files\\nodejs;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;C:\\Users\\gumione\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;S:\\os5\\OSPanel\\modules\\php\\PHP_7.2-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI;C:\\Program Files\\nodejs;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;C:\\Users\\gumione\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/s/os5/OSPanel/domains/test1.lc'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-1JJ57UU'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-1JJ57UU'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1599321538.5052
+    'REQUEST_TIME' => 1599321538
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2020-09-05 18:59:18 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists in S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 S:\os5\OSPanel\domains\test1.lc\console\migrations\m200905_155847_create_users_table.php(27): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m200905_155847_create_users_table->up()
+#5 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m200905_155847_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 S:\os5\OSPanel\domains\test1.lc\yii(23): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32),
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB in S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Schema.php:674
+Stack trace:
+#0 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute('CREATE TABLE `u...')
+#2 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 S:\os5\OSPanel\domains\test1.lc\console\migrations\m200905_155847_create_users_table.php(27): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#4 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m200905_155847_create_users_table->up()
+#5 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m200905_155847_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#10 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 S:\os5\OSPanel\domains\test1.lc\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 S:\os5\OSPanel\domains\test1.lc\yii(23): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2020-09-05 18:59:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ACLOCAL_PATH' => '/mingw64/share/aclocal:/usr/share/aclocal'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gumione\\AppData\\Roaming'
+    'COMMONPROGRAMFILES' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-1JJ57UU'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CONFIG_SITE' => '/mingw64/etc/config.site'
+    'DISPLAY' => 'needs-to-be-defined'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EXEPATH' => 'C:\\Program Files\\Git'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'C:\\Users\\gumione'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gumione'
+    'HOSTNAME' => 'DESKTOP-1JJ57UU'
+    'INFOPATH' => '/usr/local/info:/usr/share/info:/usr/info:/share/info'
+    'LANG' => 'ru_RU.UTF-8'
+    'LOCALAPPDATA' => 'C:\\Users\\gumione\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-1JJ57UU'
+    'MANPATH' => '/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man'
+    'MINGW_CHOST' => 'x86_64-w64-mingw32'
+    'MINGW_PACKAGE_PREFIX' => 'mingw-w64-x86_64'
+    'MINGW_PREFIX' => '/mingw64'
+    'MSYSTEM' => 'MINGW64'
+    'MSYSTEM_CARCH' => 'x86_64'
+    'MSYSTEM_CHOST' => 'x86_64-w64-mingw32'
+    'MSYSTEM_PREFIX' => '/mingw64'
+    'NUMBER_OF_PROCESSORS' => '6'
+    'OneDrive' => 'C:\\Users\\gumione\\OneDrive'
+    'ORIGINAL_PATH' => 'C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;S:\\os5\\OSPanel\\modules\\php\\PHP_7.2-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI;C:\\Program Files\\nodejs;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;C:\\Users\\gumione\\AppData\\Roaming\\npm'
+    'ORIGINAL_TEMP' => '/tmp'
+    'ORIGINAL_TMP' => '/tmp'
+    'OS' => 'Windows_NT'
+    'PATH' => 'C:\\Users\\gumione\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\gumione\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;S:\\os5\\OSPanel\\modules\\php\\PHP_7.2-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Acronis\\SnapAPI;C:\\Program Files\\nodejs;C:\\Users\\gumione\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Users\\gumione\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;C:\\Users\\gumione\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1.1\\bin;'
+    'PKG_CONFIG_PATH' => '/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 12, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0c'
+    'ProgramData' => 'C:\\ProgramData'
+    'PROGRAMFILES' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PS1' => '\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ '
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PWD' => '/s/os5/OSPanel/domains/test1.lc'
+    'SESSIONNAME' => 'Console'
+    'SHELL' => 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'
+    'SHLVL' => '1'
+    'SSH_ASKPASS' => '/mingw64/libexec/git-core/git-gui--askpass'
+    'SYSTEMDRIVE' => 'C:'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'TMPDIR' => 'C:\\Users\\gumione\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-1JJ57UU'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-1JJ57UU'
+    'USERNAME' => 'gumione'
+    'USERPROFILE' => 'C:\\Users\\gumione'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'WINDIR' => 'C:\\WINDOWS'
+    '_' => '/usr/bin/winpty'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1599321556.6107
+    'REQUEST_TIME' => 1599321556
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
